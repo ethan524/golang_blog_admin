@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   // 存放数据
   state: {
-    breadcrumb:{}
+    breadcrumb:[],
   },
 
   mutations: {

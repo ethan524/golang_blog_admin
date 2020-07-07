@@ -139,7 +139,6 @@ export default {
                 preview: true, // 预览
             }
         },
-        handbook: "请撰写博客内容"
     };
   }
 }
@@ -147,15 +146,15 @@ export default {
 <style lang="less" scoped>
     #artContent{
         margin:10px 0px;
-        height:720px;
         width: 100%;
         clear: both;
+        overflow: hidden;
     }
     .mavonEditor {
         width: 100%;
     }
     .v-note-wrapper{
-        min-height: 720px;;
+        min-height: 710px;;
     }
     .fl{
         float: left;

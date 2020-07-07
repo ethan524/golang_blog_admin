@@ -15,15 +15,13 @@
                         <template slot="title">
                             <i class="el-icon-menu"></i> <span>前台菜单</span>
                         </template>
-                        <el-menu-item index="2-1">选项1</el-menu-item>
-                        <el-menu-item index="2-2">选项2</el-menu-item>
-                        <el-menu-item index="2-3">选项3</el-menu-item>
+                        <el-menu-item index="/menu-list" @click="clickMenu($event)">导航菜单</el-menu-item>
                     </el-submenu>
                     <el-submenu index="3">
                         <template slot="title">
                             <i class="el-icon-s-comment"></i> <span>评论留言</span>
                         </template>
-                        <el-menu-item index="3-1">选项1</el-menu-item>
+                        <el-menu-item index="/comment-sensitive">敏感词过滤</el-menu-item>
                         <el-menu-item index="3-2">选项2</el-menu-item>
                         <el-menu-item index="3-3">选项3</el-menu-item>
                     </el-submenu>
