@@ -43,7 +43,7 @@ export default {
         options:[
           {value:'',label:'全部'},{value:'1',label:'上线'},{value:'0',label:'下线'},{value:'-1',label:'草稿',}
         ],
-        tableData: [{id:1,name: 'Go语言开发指南',},{id:2,name: 'php设计模式'}],
+        tableData: [{id:1,name: 'fuck',},{id:2,name: 'fucker'}],
         multipleSelection: []
       }
     },

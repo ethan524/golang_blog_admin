@@ -14,6 +14,7 @@ const MenuList = () => import('../views/menu/MenuList.vue')
 
 // 评论
 const CommentSensitive = () => import('../views/comment/CommentSensitive.vue')
+const CommentSensitiveSet = () => import('../views/comment/CommentSensitiveSet.vue')
 
 
 
@@ -67,6 +68,11 @@ Vue.use(VueRouter)
           path:'/comment-sensitive',
           name:'CommentSensitive',
           component:CommentSensitive
+        },
+        {
+          path:'/comment-sensitive-set',
+          name:'CommentSensitiveSet',
+          component:CommentSensitiveSet,
         }
       ]
     },
